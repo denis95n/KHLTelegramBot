@@ -1,3 +1,4 @@
+import model.ClubModel;
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
@@ -28,16 +29,22 @@ public class KHLBot extends TelegramLongPollingBot {
 
     public void onUpdateReceived(Update update) {
         Message message = update.getMessage();
+        ClubModel model = new ClubModel();
         if (message != null && message.hasText()) {
             switch (message.getText()) {
-                case "Привет" :
-                    sendMsg(message, "Привет, меня зовут Денис, как дела?");
+                case "Пьем?" :
+                    sendMsg(message, "Пора пить!!!");
                     break;
                 case "/help" :
                     sendMsg(message, "Чем помочь?");
                     break;
 
-                default: sendMsg(message, "Хватит играться!!!");
+                default:
+                    try {
+                        sendMsg(message, KHL.getKHLClub(message, model));
+                    } catch (Exception e){
+                        sendMsg(message, "Ошибка!");
+                    }
             }
 
         }
@@ -53,7 +60,7 @@ public class KHLBot extends TelegramLongPollingBot {
         List<KeyboardRow> keyboardRowsList = new ArrayList<>();
         KeyboardRow keyboardFirstRow = new KeyboardRow();
 
-        keyboardFirstRow.add(new KeyboardButton("Привет"));
+        keyboardFirstRow.add(new KeyboardButton("Пьем?"));
         keyboardFirstRow.add(new KeyboardButton("/help"));
 
         keyboardRowsList.add(keyboardFirstRow);
