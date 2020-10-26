@@ -1,1 +1,1 @@
-worker: java -jar target/KHLTelegramBot_jar.jar
+web: java -jar target/KHLTelegramBot.jar
