@@ -38,18 +38,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="KHLBot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="KHLBot" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KHLBot" />
       <module name="KHLTelegramBot" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.KHLBot" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,22 +74,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603120465127" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1603535547257">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1603726877516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603535547257" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1603535547257">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603726877516" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1603726877515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603535547257" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1603535547256">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603726877515" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1603726877514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603535547256" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1603535547257">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603726877514" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1603726877515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603535547257" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603726877515" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1603535546753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
