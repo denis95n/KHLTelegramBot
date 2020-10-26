@@ -1,1 +1,1 @@
-worker: sh target/bin/workerBot
+worker: java -jar target/KHLTelegramBot_jar.jar
