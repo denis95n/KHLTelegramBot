@@ -1,1 +1,1 @@
-bot: java -jar target/KHLTelegramBot.jar
+bot: java -jar KHLTelegramBot.jar
